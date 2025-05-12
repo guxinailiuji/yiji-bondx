@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="235px"
+	 height="235px" viewBox="0 0 235 235" style="enable-background:new 0 0 235 235;" xml:space="preserve">
+<g id="House">
+	<rect style="fill:#B1B1B1;" width="235" height="235"/>
+	<path style="fill:#E3E3E3;" d="M117.5,18.502c-54.676,0-98.999,44.323-98.999,98.999c0,54.675,44.323,98.999,98.999,98.999
+		c54.675,0,98.999-44.324,98.999-98.999C216.499,62.825,172.175,18.502,117.5,18.502z M117.5,202.979
+		c-47.209,0-85.479-38.27-85.479-85.478c0-47.209,38.271-85.479,85.479-85.479c47.208,0,85.479,38.271,85.479,85.479
+		C202.979,164.709,164.708,202.979,117.5,202.979z"/>
+	<path style="fill:#EDA33F;" d="M197.227,117.501c0,44.03-35.694,79.724-79.726,79.724c-44.033,0-79.728-35.693-79.728-79.724
+		c0-44.033,35.694-79.729,79.728-79.729C161.532,37.772,197.227,73.468,197.227,117.501z"/>
+	<ellipse cx="117.5" cy="148.918" rx="53.312" ry="8.121"/>
+	<rect x="85.604" y="74.992" style="fill:#5D140B;" width="13.332" height="38.058"/>
+	<path style="fill:#D3D5D6;" d="M71.83,107.646v41.271h45.67h45.67v-41.271L117.5,84.935L71.83,107.646z"/>
+	<polygon style="fill:#352200;" points="117.509,81.994 67.87,107.115 67.87,113.05 117.509,87.873 167.148,113.05 167.148,107.115 
+			"/>
+	<rect x="108.583" y="119.534" style="fill:#352200;" width="17.834" height="29.384"/>
+	<g>
+		<rect x="80.729" y="120.201" style="fill:#352200;" width="17.5" height="18"/>
+		<rect x="82.313" y="121.89" style="fill:#8FBDCF;" width="6.582" height="6.811"/>
+		<rect x="90.062" y="121.89" style="fill:#8FBDCF;" width="6.5" height="6.811"/>
+		<rect x="82.313" y="129.702" style="fill:#8FBDCF;" width="6.582" height="6.892"/>
+		<rect x="90.062" y="129.702" style="fill:#8FBDCF;" width="6.5" height="6.892"/>
+	</g>
+	<g>
+		<rect x="137.062" y="120.201" style="fill:#352200;" width="17.5" height="18"/>
+		<rect x="138.646" y="121.89" style="fill:#8FBDCF;" width="6.582" height="6.811"/>
+		<rect x="146.395" y="121.89" style="fill:#8FBDCF;" width="6.5" height="6.811"/>
+		<rect x="138.646" y="129.702" style="fill:#8FBDCF;" width="6.582" height="6.892"/>
+		<rect x="146.395" y="129.702" style="fill:#8FBDCF;" width="6.5" height="6.892"/>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BondX — 锚定真实，链接未来</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="font-['Inter',sans-serif] bg-gray-950 text-gray-100">
+    <header class="fixed top-0 left-0 right-0 bg-gray-950/80 backdrop-blur-lg z-50 border-b border-gray-800">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <img src="logo.svg" alt="BondX Logo" class="h-8">
+                    <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">BondX</span>
+                </div>
+                
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors">关于我们</a>
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors">核心特点</a>
+                    <a href="#concept" class="text-gray-300 hover:text-white transition-colors">理念解析</a>
+                    <a href="#join" class="text-gray-300 hover:text-white transition-colors">参与方式</a>
+                </nav>
+                
+                <div>
+                    <a href="#join" class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-sm hover:shadow-lg transition-all">
+                        立即加入
+                    </a>
+                </div>
+                
+                <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white">
+                    <i data-lucide="menu" class="h-6 w-6"></i>
+                </button>
+
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                        <i data-lucide="x" class="h-6 w-6"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                        <i data-lucide="facebook" class="h-6 w-6"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-white transition-colors">
+                        <i data-lucide="instagram" class="h-6 w-6"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-800 bg-gray-900">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">关于我们</a>
+                <a href="#features" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">核心特点</a>
+                <a href="#concept" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">理念解析</a>
+                <a href="#join" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">参与方式</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-20 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-gray-950 to-gray-950 z-0"></div>
+            <div class="relative z-10 container mx-auto px-4 md:px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-blue-900/30 text-blue-400 mb-6">
+                            <span class="mr-1 text-xs">•</span> BSC链上的革命性MEME代币
+                        </div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">BondX</span> — 锚定真实，<br>链接未来
+                        </h1>
+                        <p class="text-xl text-gray-300 mb-8 max-w-xl">
+                            全球经济巨变、货币系统动荡的时代，BondX将真实世界资产代币化，为每个人构建一座通向财富自由的桥梁。
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="#join" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-md hover:shadow-lg transition-all">
+                                加入社区
+                                <i data-lucide="arrow-right" class="ml-2 h-5 w-5"></i>
+                            </a>
+                            <a href="#concept" class="inline-flex items-center justify-center px-6 py-3 border border-gray-600 text-base font-medium rounded-md text-gray-100 bg-gray-900/50 hover:bg-gray-800 transition-all">
+                                了解更多
+                            </a>
+                        </div>
+                        <div class="mt-8 grid grid-cols-3 gap-4">
+                            <div class="flex flex-col items-center md:items-start">
+                                <div class="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">0%</div>
+                                <div class="text-gray-400 text-sm">交易税</div>
+                            </div>
+                            <div class="flex flex-col items-center md:items-start">
+                                <div class="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">100%</div>
+                                <div class="text-gray-400 text-sm">社区驱动</div>
+                            </div>
+                            <div class="flex flex-col items-center md:items-start">
+                                <div class="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">BSC</div>
+                                <div class="text-gray-400 text-sm">币安智能链</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="relative w-full max-w-md aspect-square">
+                            <img src="https://r2.flowith.net/files/a87c9365-1e4b-4dc9-9f13-64f1950cf211/1746523940761-A_visu.jpeg" alt="BondX Hero Illustration" class="rounded-lg shadow-2xl shadow-blue-500/10 object-cover w-full h-full">
+                            <div class="absolute inset-0 border border-blue-500/20 rounded-lg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-gray-900/50 relative">
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-950/10 via-transparent to-transparent"></div>
+            <div class="container mx-auto px-4 md:px-6 relative z-10">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">不止是MEME，这是一场<span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">社区价值革命</span></h2>
+                    <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+                        BondX不是又一个跟风炒作的空气币，而是一个开创性的社区驱动价值实验，将MEME文化与RWA代币化完美结合。
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                    <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-8 transition-all hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5">
+                        <div class="flex items-start mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="h-12 w-12 rounded-full bg-blue-900/30 flex items-center justify-center">
+                                    <i data-lucide="link" class="h-6 w-6 text-blue-400"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-semibold mb-2">Bond (纽带)</h3>
+                                <p class="text-gray-300">
+                                    代表社区成员间牢不可破的信任、情感连接和共同承诺。这是我们价值的基石，是我们"锚定真实"的源泉。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-8 transition-all hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5">
+                        <div class="flex items-start mb-6">
+                            <div class="flex-shrink-0">
+                                <div class="h-12 w-12 rounded-full bg-indigo-900/30 flex items-center justify-center">
+                                    <i data-lucide="sparkles" class="h-6 w-6 text-indigo-400"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-semibold mb-2">X (无限潜能)</h3>
+                                <p class="text-gray-300">
+                                    代表无限的可能性、未被发掘的巨大潜力、以及社区共同驱动下价值的指数级增长。这是我们"链接未来"的引擎。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-20 bg-gradient-to-r from-blue-950/30 to-gray-900/20 border border-gray-700 rounded-xl p-8 md:p-12">
+                    <div class="flex flex-col md:flex-row gap-8 items-center">
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold mb-4">把资产搬上链条，让价值自由流动</h3>
+                            <p class="text-gray-300 mb-6">
+                                传统资产（如美债）仍然是避险的核心选择，但普通人却难以直接高效地持有、交易和利用它们。BondX将RWA（现实世界资产）代币化，让每个人都能参与到全球最坚固的价值网络中。
+                            </p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="flex items-center">
+                                    <i data-lucide="check-circle" class="h-5 w-5 text-blue-400 mr-2"></i>
+                                    <span class="text-gray-200">房产资产</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i data-lucide="check-circle" class="h-5 w-5 text-blue-400 mr-2"></i>
+                                    <span class="text-gray-200">艺术品</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i data-lucide="check-circle" class="h-5 w-5 text-blue-400 mr-2"></i>
+                                    <span class="text-gray-200">美债</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i data-lucide="check-circle" class="h-5 w-5 text-blue-400 mr-2"></i>
+                                    <span class="text-gray-200">稀有金属</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/3">
+                            <img src="hero-illustration.svg" alt="Real World Assets" class="w-full h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20 relative">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">BondX的<span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">独家价值主张</span></h2>
+                    <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+                        我们重新定义资产并创造一个真正由社区驱动的价值生态系统
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-8 transition-transform hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5">
+                        <img src="bond-icon.svg" alt="RWA Innovation" class="h-14 w-14 mb-6">
+                        <h3 class="text-xl font-semibold mb-4">RWA的MEME化创新</h3>
+                        <p class="text-gray-300 mb-4">
+                            BondX大胆解构传统金融对"资产"的定义，创新性地提出"情感RWA"、"共识RWA"等概念，让社区的情感和共识成为可量化资产。
+                        </p>
+                        <div class="pt-4 border-t border-gray-700">
+                            <div class="flex items-center text-blue-400">
+                                <span class="text-sm font-medium">资产代币化的新范式</span>
+                                <i data-lucide="arrow-right" class="ml-2 h-4 w-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-8 transition-transform hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5">
+                        <img src="security-icon.svg" alt="Community Security" class="h-14 w-14 mb-6">
+                        <h3 class="text-xl font-semibold mb-4">社区即安全</h3>
+                        <p class="text-gray-300 mb-4">
+                            在BondX，安全感的核心源于我们强大、透明、活跃且持续增长的社区共识。每一个BondX持有者都是这个"社区资产"的共同所有者、建设者和守护者。
+                        </p>
+                        <div class="pt-4 border-t border-gray-700">
+                            <div class="flex items-center text-blue-400">
+                                <span class="text-sm font-medium">去中心化的信任网络</span>
+                                <i data-lucide="arrow-right" class="ml-2 h-4 w-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-8 transition-transform hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-lg hover:shadow-blue-500/5">
+                        <img src="community-icon.svg" alt="Inclusive Finance" class="h-14 w-14 mb-6">
+                        <h3 class="text-xl font-semibold mb-4">普惠金融，轻松链接</h3>
+                        <p class="text-gray-300 mb-4">
+                            BondX是为全球每一个渴望创新、追求归属、寻找机遇的你而打造的舞台！依托币安智能链(BSC)，BondX享有低廉的Gas费和高效的交易速度。
+                        </p>
+                        <div class="pt-4 border-t border-gray-700">
+                            <div class="flex items-center text-blue-400">
+                                <span class="text-sm font-medium">低门槛，高参与</span>
+                                <i data-lucide="arrow-right" class="ml-2 h-4 w-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Concept Section -->
+        <section id="concept" class="py-20 bg-gray-900/50 relative">
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-indigo-950/10 via-transparent to-transparent"></div>
+            <div class="container mx-auto px-4 md:px-6 relative z-10">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">核心理念深度解析</h2>
+                    <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">"锚定真实，链接未来"</span> — BondX的价值基石
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div class="bg-gradient-to-br from-blue-950/30 to-gray-900/20 border border-gray-700 rounded-xl p-8 md:p-12">
+                        <img src="bond-icon.svg" alt="Reality" class="h-14 w-14 mb-6">
+                        <h3 class="text-2xl font-bold mb-6">锚定真实 (Anchoring in Reality)</h3>
+                        <p class="text-gray-300 mb-6">
+                            BondX的"Bond"，是我们对"真实价值"最深刻、最MEME化的理解。这份"真实"，具体体现在：
+                        </p>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="flex items-center text-lg font-semibold mb-3 text-blue-400">
+                                    <i data-lucide="heart" class="h-5 w-5 mr-2"></i>
+                                    情感的真实共振
+                                </h4>
+                                <p class="text-gray-300 pl-7">
+                                    每一次在社群里的热烈讨论，每一个为BondX创作的MEME图，每一次自发的口碑传播，都是真实情感的流露与连接。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="flex items-center text-lg font-semibold mb-3 text-blue-400">
+                                    <i data-lucide="handshake" class="h-5 w-5 mr-2"></i>
+                                    共识的真实凝聚
+                                </h4>
+                                <p class="text-gray-300 pl-7">
+                                    在Web3时代，共识是最稀缺、也是最强大的生产资料。BondX代表了全球社区成员对一个共同愿景、一套共同价值观的集体信仰与认可。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="flex items-center text-lg font-semibold mb-3 text-blue-400">
+                                    <i data-lucide="palette" class="h-5 w-5 mr-2"></i>
+                                    文化的真实创造
+                                </h4>
+                                <p class="text-gray-300 pl-7">
+                                    MEME即文化，社区即土壤。BondX不仅仅是一个代币符号，更是一个鲜活的、不断演进的社区文化生态。
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 p-4 border border-blue-800/30 bg-blue-950/20 rounded-lg">
+                            <p class="text-gray-300 italic">
+                                "我们不锚定黄金，不锚定美元，我们锚定的是比黄金更珍贵、比美元更坚挺的——社区的真实情感与强大共识！这，就是BondX的'Bond'！"
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-indigo-950/30 to-gray-900/20 border border-gray-700 rounded-xl p-8 md:p-12">
+                        <img src="future-icon.svg" alt="Future" class="h-14 w-14 mb-6">
+                        <h3 class="text-2xl font-bold mb-6">链接未来 (Linking to the Future)</h3>
+                        <p class="text-gray-300 mb-6">
+                            BondX的"X"，是通往无限可能与指数级增长的神秘代码，是我们对未来的大胆宣言与无限憧憬：
+                        </p>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="flex items-center text-lg font-semibold mb-3 text-indigo-400">
+                                    <i data-lucide="rocket" class="h-5 w-5 mr-2"></i>
+                                    X倍价值潜力
+                                </h4>
+                                <p class="text-gray-300 pl-7">
+                                    "X"象征着未知、乘数效应和爆发式增长的无限可能。在BondX的世界里，我们不给价值设限，社区的想象力有多大，BondX的未来舞台就有多广阔！
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="flex items-center text-lg font-semibold mb-3 text-indigo-400">
+                                    <i data-lucide="galaxy" class="h-5 w-5 mr-2"></i>
+                                    X维宇宙探索
+                                </h4>
+                                <p class="text-gray-300 pl-7">
+                                    BondX的征途是星辰大海！我们将不断探索MEME与"社区RWA"结合的崭新边界，链接更多元的社区价值形态。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="flex items-center text-lg font-semibold mb-3 text-indigo-400">
+                                    <i data-lucide="gift" class="h-5 w-5 mr-2"></i>
+                                    X元素惊喜事件
+                                </h4>
+                                <p class="text-gray-300 pl-7">
+                                    保持好奇，准备尖叫！BondX社区将是一个充满"X因子事件"的乐园——不定期的创意空投、激动人心的社区挑战赛、跨界联名合作等等。
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 p-4 border border-indigo-800/30 bg-indigo-950/20 rounded-lg">
+                            <p class="text-gray-300 italic">
+                                "我们不链接过去，不链接传统，我们链接的是充满无限可能的未来——一个由社区共同定义、共同创造、共同拥有的X倍价值未来！这，就是BondX的'X'！"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Section -->
+        <section id="join" class="py-20 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/10 via-gray-950 to-gray-950 z-0"></div>
+            <div class="container mx-auto px-4 md:px-6 relative z-10">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">加入BondX运动</h2>
+                    <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+                        现在，就和我们一起创造历史！
+                    </p>
+                </div>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-br from-blue-900/30 to-gray-900/60 border border-gray-700 rounded-xl p-8 md:p-12 mb-12">
+                        <div class="text-center mb-8">
+                            <h3 class="text-2xl font-bold mb-4">立即加入BondX官方社区！</h3>
+                            <p class="text-gray-300">
+                                成为我们"价值纽带"大家庭的一员，与来自全球的先行者、梦想家、实干家们一起，交流思想，碰撞火花，共同见证并亲手创造BondX的传奇！
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                            <a href="#" class="flex flex-col items-center p-4 bg-gray-800/50 hover:bg-gray-800/80 border border-gray-700 rounded-lg transition-all hover:shadow-lg hover:shadow-blue-500/5">
+                                <i data-lucide="send" class="h-8 w-8 text-blue-400 mb-3"></i>
+                                <span class="text-gray-200 font-medium">Telegram</span>
+                            </a>
+                            <a href="#" class="flex flex-col items-center p-4 bg-gray-800/50 hover:bg-gray-800/80 border border-gray-700 rounded-lg transition-all hover:shadow-lg hover:shadow-blue-500/5">
+                                <i data-lucide="x" class="h-8 w-8 text-blue-400 mb-3"></i>
+                                <span class="text-gray-200 font-medium">Twitter</span>
+                            </a>
+                            <a href="#" class="flex flex-col items-center p-4 bg-gray-800/50 hover:bg-gray-800/80 border border-gray-700 rounded-lg transition-all hover:shadow-lg hover:shadow-blue-500/5">
+                                <i data-lucide="message-circle" class="h-8 w-8 text-blue-400 mb-3"></i>
+                                <span class="text-gray-200 font-medium">Discord</span>
+                            </a>
+                            <a href="#" class="flex flex-col items-center p-4 bg-gray-800/50 hover:bg-gray-800/80 border border-gray-700 rounded-lg transition-all hover:shadow-lg hover:shadow-blue-500/5">
+                                <i data-lucide="github" class="h-8 w-8 text-blue-400 mb-3"></i>
+                                <span class="text-gray-200 font-medium">GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-8 md:p-12">
+                        <div class="flex flex-col md:flex-row items-center gap-8">
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold mb-4">持有BondX，持有"社区真实资产"的未来份额！</h3>
+                                <p class="text-gray-300 mb-6">
+                                    这不仅仅是一枚MEME币，这是你参与定义下一代"真实世界资产"的入场券，是你链接"X倍未来"的钥匙，是你社区身份与贡献的象征！
+                                </p>
+                                <a href="#" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-md hover:shadow-lg transition-all">
+                                    购买 BondX
+                                    <i data-lucide="external-link" class="ml-2 h-5 w-5"></i>
+                                </a>
+                            </div>
+                            <div class="w-full md:w-1/3 flex justify-center">
+                                <div class="aspect-square w-40 h-40 md:w-48 md:h-48 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center shadow-lg shadow-blue-500/20">
+                                    <img src="logo.svg" alt="BondX Logo" class="h-24 md:h-28">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BSC Advantages Section -->
+        <section class="py-20 bg-gray-900">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4">为什么选择BSC链</h2>
+                        <p class="text-gray-300 max-w-3xl mx-auto text-lg">
+                            币安智能链为BondX项目提供了最佳的成长土壤
+                        </p>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-6 hover:border-blue-500/30 transition-all">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-900/30 mx-auto mb-6">
+                                <i data-lucide="zap" class="h-6 w-6 text-blue-400"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-center">闪电般的交易速度</h3>
+                            <p class="text-gray-300 text-center">
+                                BSC区块时间约为3秒，确保您的交易体验丝般顺滑。
+                            </p>
+                        </div>
+                        
+                        <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-6 hover:border-blue-500/30 transition-all">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-900/30 mx-auto mb-6">
+                                <i data-lucide="coins" class="h-6 w-6 text-blue-400"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-center">低廉的Gas费用</h3>
+                            <p class="text-gray-300 text-center">
+                                相比其他链，BSC的Gas费低廉到几乎可以忽略，让参与毫无压力。
+                            </p>
+                        </div>
+                        
+                        <div class="bg-gray-800/20 border border-gray-700 rounded-xl p-6 hover:border-blue-500/30 transition-all">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-900/30 mx-auto mb-6">
+                                <i data-lucide="network" class="h-6 w-6 text-blue-400"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3 text-center">庞大的用户生态</h3>
+                            <p class="text-gray-300 text-center">
+                                BSC拥有庞大且成熟的用户基础和生态系统，为BondX的未来拓展提供无限可能。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+        <section class="py-12 bg-gray-950 border-t border-gray-800">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-gray-300">免责声明</h3>
+                        <p class="text-gray-400 text-sm">
+                            加密货币投资具有高风险性，价格波动剧烈。BondX作为一个MEME币项目，其价值高度依赖社区共识和市场情绪，可能存在归零风险。请在充分了解项目信息、评估自身风险承受能力后，理性决策，谨慎投资。本网站内容不构成任何投资建议。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-950 border-t border-gray-800 py-8">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center gap-2 mb-4 md:mb-0">
+                    <img src="logo.svg" alt="BondX Logo" class="h-6">
+                    <span class="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">BondX</span>
+                </div>
+                <div class="text-gray-400 text-sm">
+                    by BondX
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
